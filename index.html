@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <title>ulkit-sample</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="uk-heading-primary">TODOリスト</h1>
+    <p>サンプルアプリケーションです。</p>
+  </header>
+
+  <main class="container">
+    <form class=".uk-grid-collapse" uk-grid>
+      <div>
+        <input type="text" name="title" value="" placeholder="何をする？" class="uk-input">
+      </div>
+      <div>
+        <button class="uk-button uk-button-default">追加</button>
+      </div>
+    </form>
+
+    <hr>
+
+    <table class="uk-table uk-table-striped uk-table-hover">
+      <thead>
+        <tr>
+          <th>タイトル</th>
+          <th>作成日</th>
+          <th>更新日</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TODOタイトル１</td>
+          <td>2019/1/1 1:11</td>
+          <td>2019/1/2 2:22</td>
+          <td><input class="uk-checkbox" type="checkbox"></td>
+        </tr>
+        <tr>
+          <td>TODOタイトル２</td>
+          <td>2019/1/4 8:00</td>
+          <td>2019/1/4 9:00</td>
+          <td><input class="uk-checkbox" type="checkbox"></td>
+        </tr>
+        <tr>
+          <td>TODOタイトル３</td>
+          <td>2019/1/4 8:00</td>
+          <td>2019/1/4 9:00</td>
+          <td><input class="uk-checkbox" type="checkbox"></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </main>
+</body>
+
+</html>
